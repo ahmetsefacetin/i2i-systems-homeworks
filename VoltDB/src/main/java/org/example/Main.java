@@ -13,7 +13,7 @@ public class Main {
             ClientConfig clientConfig = new ClientConfig();
             Client client = ClientFactory.createClient(clientConfig);
 
-            client.createConnection("localhost:55017");
+            client.createConnection("localhost:55080");
 
             ClientResponse response = client.callProcedure("selectAllSubscribers");
 
